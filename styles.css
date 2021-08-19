@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 70%;
+    max-width: 85%;
     margin: auto;
 }
 
@@ -23,10 +23,11 @@ hr {
 
 .center-container {
     margin: auto;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     width: max-content;
     min-width: 150px;
@@ -36,11 +37,13 @@ hr {
 }
 
 .primary-link {
+    display: block;
     color: white;
     background-color: var(--primary);
 }
 
 .secondary-link {
+    display: block;
     color: var(--primary);
     border: 1px solid var(--primary);
 }
@@ -86,12 +89,11 @@ hr {
 }
 
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .hero .hero-img {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     display: block;
     width: 300px;
@@ -138,7 +140,7 @@ hr {
 }
 
 .showcase-list {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .showcase-blog {
